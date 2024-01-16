@@ -31,7 +31,7 @@ jobs:
           - {cc: clang, cxx: clang++}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.1.1
         with:
           submodules: true
 
@@ -67,7 +67,7 @@ jobs:
           - {cc: clang, cxx: clang++}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4.1.1
         with:
           submodules: true
 
